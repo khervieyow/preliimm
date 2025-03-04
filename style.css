@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+.table thead {
+    background: #6a11cb;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #ffffff;
+}
+
+.table th {
+    padding: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/* Table Body */
+.table tbody tr {
+    transition: background 0.3s ease;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Table Cells */
+.table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Last Row Border */
+.table tbody tr:last-of-type td {
+    border-bottom: 2px solid #6a11cb;
+}
+
+/* Button Styles */
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+}
+
+/* Update Button */
+.btnUpdateProduct {
+    background-color: #ffc107;
+    color: white;
+}
+
+.btnUpdateProduct:hover {
+    background-color: #e0a800;
+}
+
+/* Delete Button */
+.btnDeleteProduct {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btnDeleteProduct:hover {
+    background-color: #c82333;
+}
+
+/* Spacing Utility */
+.mt-5 {
+    margin-top: 3rem !important;
+}
